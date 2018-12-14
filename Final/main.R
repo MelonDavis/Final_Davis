@@ -24,8 +24,6 @@ for(i in 1:length(output.folder.names)) {
     dir.create(output.folder.names[i])
 }
 
-#**wanna try n make subfolders (graph, tables and test in analysis)
-
 #Make path names for each folder
 
 #concenate empty object to store paths
