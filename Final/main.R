@@ -27,19 +27,19 @@ for(i in 1:length(output.folder.names)) {
 #Make path names for each folder
 
 #concenate empty object to store paths
-paths.final <- c(rep(NA, 3)) 
+p.final <- c(rep(NA, 3)) 
 
 #for loop that generates path for each folder and assigns path to corresponding
 #position in paths.proto
 for (i in 1:length(output.folder.names)) {
-  paths.final[i] <- paste(working.dir, "/", output.folder.names[i], "/", 
+  p.final[i] <- paste(working.dir, "/", output.folder.names[i], "/", 
                             sep = "")
   
 } 
 #paths.bigdata should now contain each pathway stored in the same order as 
 #output.folder.names.
 
-print(paths.final)
+print(p.final)
 #1 = raw; 2 = clean; 3 = analysis
 
 
