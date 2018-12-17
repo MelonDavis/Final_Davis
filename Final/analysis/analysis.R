@@ -21,6 +21,6 @@ for (i in 1:4) {
   axis(1, c(scposition[i]), c(labels[i])) 
 }
 
-#collapse by quadrat and add 0 values for quadrats with no species
+
 
 
