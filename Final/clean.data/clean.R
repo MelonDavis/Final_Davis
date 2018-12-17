@@ -1,14 +1,15 @@
 #Clean
 
-#====== [Load Raw] =====
+#====== [Load Clean] =====
 
-inv.d <- read.csv(file.choose("invertebrate"), stringsAsFactors = FALSE, strip.white = TRUE, 
-                  na.strings = c("NA",""))
+#Data was cleaned in excel to match coordinate data (distance from high tide)
+  #and results of each quadrat
 
-head(inv.d)
+#import data. NAs were entered as "-" so include transforming them into NA
+inv.d <- read.csv(file.choose("invertebrate"), stringsAsFactors = FALSE, 
+                  strip.white = TRUE, na.strings = c("NA","-"))
 
-#In this case we want to keep site section, quadrat, kingdom, phylum, class, 
-  #order, family, Genus, count
-  # "-" = NA
-  #only want site 1 data
+tail(inv.d) #successfully transformed dashes to NA
+
+
 
