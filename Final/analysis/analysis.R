@@ -24,14 +24,22 @@ for (i in 1:4) {
 #sample size of each site
 n <- quadnum
 
-#for (i in 1:4){
+#object to store sum of each quadrant (number = total num of quads)
+sum.quad <- rep(NA, 30)
 
-  test <- labels[1]
-  points(jitter(rep(1, n[1]), 5), allquad$Number.of.individuals
-         [allquad$Section == test], pch = 19)
+all <- unique(allquad$X)
 
+#this should work but i think i need to collapse by quad seperately
+for (i in 1:30){
+  
+  sec <- all[i]
+  test[i] <- sum(allquad$Number.of.individuals[allquad$X == sec])
+  
+}
 
+data.frame(all, test)
 
+#points(jitter(rep(scposition[1], n[i]), 5), test[i], pch = 19)
 
 
 
