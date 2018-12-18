@@ -21,6 +21,18 @@ for (i in 1:4) {
   axis(1, c(scposition[i]), c(labels[i])) 
 }
 
+#sample size of each site
+n <- quadnum
+
+#for (i in 1:4){
+
+  test <- labels[1]
+  points(jitter(rep(1, n[1]), 5), allquad$Number.of.individuals
+         [allquad$Section == test], pch = 19)
+
+
+
+
 
 
 
