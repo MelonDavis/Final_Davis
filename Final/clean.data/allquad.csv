@@ -1,4 +1,4 @@
-"","X","Date","Site","Section","Quadrat","NS..ft.","WE..ft.from.HTL.","Kingdom","Phylum","Class","Order","Family","Genus","Species","Common.Name","Number.of.individuals","X.1","X.2","X.3"
+"","Location","Date","Site","Section","Quadrat","NS..ft.","WE..ft.from.HTL.","Kingdom","Phylum","Class","Order","Family","Genus","Species","Common.Name","Number.of.individuals","X.1","X.2","X.3"
 "1","A1",NA,NA,"A","1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
 "2","A2",NA,NA,"A","2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
 "3","A3","5/19/2018",1,"A","3",4,3,"Animalia","Arthropoda","Malacostraca","Amphipoda","Talitridae","Megalorchestia","californiana","California Beach Hopper",30,NA,NA,NA
