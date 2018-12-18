@@ -1,128 +1,128 @@
 "","X","Date","Site","Section","Quadrat","NS..ft.","WE..ft.from.HTL.","Kingdom","Phylum","Class","Order","Family","Genus","Species","Common.Name","Number.of.individuals","X.1","X.2","X.3"
-"1","A1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
-"2","A2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
-"3","A3","5/19/2018",1,"A",3,4,3,"Animalia","Arthropoda","Malacostraca","Amphipoda","Talitridae","Megalorchestia","californiana","California Beach Hopper",30,NA,NA,NA
-"4","A4","5/19/2018",1,"A",4,38,8,"Animalia","Arthropoda","Malacostraca","Amphipoda","Talitridae","Megalorchestia","californiana","California Beach Hopper",1,NA,NA,NA
-"5","A5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
-"6","A6",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
-"7","A7",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
-"8","A8",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
-"9","A9",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
-"10","D1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
-"11","D2","6/8/2018",1,"D",2,93,94,"Animalia","Mollusca","Gastropoda","Patellogastropoda","Lottioidea","Lottia",NA,"Lottia Limpets",2,NA,NA,NA
-"12","D2","6/8/2018",1,"D",2,93,94,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",1640,NA,NA,NA
-"13","D2","6/8/2018",1,"D",2,93,94,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",30,NA,NA,NA
-"14","D2","6/8/2018",1,"D",2,93,94,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",3,NA,NA,NA
-"15","D2","6/8/2018",1,"D",2,93,94,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",2,NA,NA,NA
-"16","D2","6/8/2018",1,"D",2,93,94,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",1,NA,NA,NA
-"17","D2","6/8/2018",1,"D",2,93,94,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",1,NA,NA,NA
-"18","D2","6/8/2018",1,"D",2,93,94,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",5,NA,NA,NA
-"19","D2","6/8/2018",1,"D",2,93,94,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",1,NA,NA,NA
-"20","D2","6/8/2018",1,"D",2,93,94,"Animalia","Mollusca","Gastropoda","Littorinidae","Littorinidae","Littorina","scutulata","Checkered Periwinkle",80,NA,NA,NA
-"21","D2","6/8/2018",1,"D",2,93,94,"Animalia","Mollusca","Gastropoda","Littorinimorpha","Littorinidae","Littorina",NA,"Periwinkle Snails",1,NA,NA,NA
-"22","D3","6/8/2018",1,"D",3,93,81,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",1,NA,NA,NA
-"23","D3","6/8/2018",1,"D",3,93,81,"Animalia","Mollusca","Gastropoda","Patellogastropoda",NA,NA,NA,"Limpet",1,NA,NA,NA
-"24","D3","6/8/2018",1,"D",3,93,81,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",8,NA,NA,NA
-"25","D3","6/8/2018",1,"D",3,93,81,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",1,NA,NA,NA
-"26","D3","6/8/2018",1,"D",3,93,81,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus",NA,"Barnacle",1,NA,NA,NA
-"27","D3","6/8/2018",1,"D",3,93,81,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",24,NA,NA,NA
-"28","D3","6/8/2018",1,"D",3,93,81,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",1,NA,NA,NA
-"29","D3","6/8/2018",1,"D",3,93,81,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",1,NA,NA,NA
-"30","D3","6/8/2018",1,"D",3,93,81,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",1,NA,NA,NA
-"31","D3","6/8/2018",1,"D",3,93,81,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",1,NA,NA,NA
-"32","D3","6/8/2018",1,"D",3,93,81,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",1,NA,NA,NA
-"33","D3","6/8/2018",1,"D",3,93,81,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",1,NA,NA,NA
-"34","D4","6/29/2018",1,"D",4,76,94,"Animalia","Annelida","Polychaeta","Phyllodocida","Nereididae",NA,NA,"Polychate Worms",4,NA,NA,NA
-"35","D4","6/29/2018",1,"D",4,76,94,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",32,NA,NA,NA
-"36","D4","6/29/2018",1,"D",4,76,94,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",26,NA,NA,NA
-"37","D4","6/29/2018",1,"D",4,76,94,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",64,NA,NA,NA
-"38","D4","6/29/2018",1,"D",4,76,94,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",54,NA,NA,NA
-"39","D4","6/29/2018",1,"D",4,76,94,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",1850,NA,NA,NA
-"40","D4","6/29/2018",1,"D",4,76,94,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",3,NA,NA,NA
-"41","D4","6/29/2018",1,"D",4,76,94,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Protothaca","staminea","Pacific Littleneck Clam",2,NA,NA,NA
-"42","D5","6/30/2018",1,"D",5,76,81,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",24,NA,NA,NA
-"43","D5","6/30/2018",1,"D",5,76,81,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",5,NA,NA,NA
-"44","D5","6/30/2018",1,"D",5,76,81,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",18,NA,NA,NA
-"45","D5","6/30/2018",1,"D",5,76,81,"Animalia","Annelida","Polychaeta","Phyllodocida","Nereididae","Nereis","brandti","Giant Pilling Worm",2,NA,NA,NA
-"46","D5","6/30/2018",1,"D",5,76,81,"Animalia","Arthropoda","Malacostraca","Decapoda","Callianassidae","Neotrypaea","californiensis","Bay Ghost Shrimp",1,NA,NA,NA
-"47","D5","6/30/2018",1,"D",5,76,81,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",22,NA,NA,NA
-"48","D5","6/30/2018",1,"D",5,76,81,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",1870,NA,NA,NA
-"49","D5","6/30/2018",1,"D",5,76,81,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",44,NA,NA,NA
-"50","D5","6/30/2018",1,"D",5,76,81,"Animalia","Mollusca","Gastropoda","Littorinimorpha","Littorinidae","Littorina",NA,"Periwinkle Snails",110,NA,NA,NA
-"51","D6","6/30/2018",1,"D",6,76,76,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",1970,NA,NA,NA
-"52","D6","6/30/2018",1,"D",6,76,76,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",25,NA,NA,NA
-"53","D6","6/30/2018",1,"D",6,76,76,"Animalia","Arthropoda","Malacostraca","Decapoda","Callianassidae","Neotrypaea","californiensis","Bay Ghost Shrimp",1,NA,NA,NA
-"54","D6","6/30/2018",1,"D",6,76,76,"Animalia","Mollusca","Gastropoda","Littorinimorpha","Littorinidae","Littorina",NA,"Periwinkle Snails",145,NA,NA,NA
-"55","D6","6/30/2018",1,"D",6,76,76,"Animalia","Mollusca","Gastropoda","Patellogastropoda","Lottioidea","Lottia",NA,"Lottia Limpets",18,NA,NA,NA
-"56","D6","6/30/2018",1,"D",6,76,76,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",28,NA,NA,NA
-"57","D6","6/30/2018",1,"D",6,76,76,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",1,NA,NA,NA
-"58","D7","6/29/2018",1,"D",7,48,94,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",22,NA,NA,NA
-"59","D7","6/29/2018",1,"D",7,48,94,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",18,NA,NA,NA
-"60","D7","6/29/2018",1,"D",7,48,94,"Animalia","Arthropoda","Malacostraca","Decapoda","Callianassidae","Neotrypaea","californiensis","Bay Ghost Shrimp",3,NA,NA,NA
-"61","D7","6/29/2018",1,"D",7,48,94,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",10,NA,NA,NA
-"62","D7","6/29/2018",1,"D",7,48,94,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",1290,NA,NA,NA
-"63","D7","6/29/2018",1,"D",7,48,94,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",12,NA,NA,NA
-"64","D7","6/29/2018",1,"D",7,48,94,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",2,NA,NA,NA
-"65","D7","6/29/2018",1,"D",7,48,94,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",1,NA,NA,NA
-"66","D7","6/29/2018",1,"D",7,48,94,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",26,NA,NA,NA
-"67","D8","6/30/2018",1,"D",8,48,81,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",28,NA,NA,NA
-"68","D8","6/30/2018",1,"D",8,48,81,"Animalia","Mollusca","Gastropoda","Littorinimorpha","Littorinidae","Littorina",NA,"Periwinkle Snails",170,NA,NA,NA
-"69","D8","6/30/2018",1,"D",8,48,81,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",1600,NA,NA,NA
-"70","D8","6/30/2018",1,"D",8,48,81,"Animalia","Annelida","Polychaeta","Phyllodocida","Nereididae","Nereis","brandti","Giant Pilling Worm",1,NA,NA,NA
-"71","D8","6/30/2018",1,"D",8,48,81,"Animalia","Arthropoda","Malacostraca","Decapoda","Callianassidae","Neotrypaea","californiensis","Bay Ghost Shrimp",2,NA,NA,NA
-"72","D8","6/30/2018",1,"D",8,48,81,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",28,NA,NA,NA
-"73","D8","6/30/2018",1,"D",8,48,81,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",31,NA,NA,NA
-"74","D8","6/30/2018",1,"D",8,48,81,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",16,NA,NA,NA
-"75","D9","6/30/2018",1,"D",9,48,76,"Animalia","Annelida","Polychaeta","Phyllodocida","Nereididae","Nereis","brandti","Giant Pilling Worm",1,NA,NA,NA
-"76","D9","6/30/2018",1,"D",9,48,76,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",1470,NA,NA,NA
-"77","D9","6/30/2018",1,"D",9,48,76,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",134,NA,NA,NA
-"78","D9","6/30/2018",1,"D",9,48,76,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",59,NA,NA,NA
-"79","D9","6/30/2018",1,"D",9,48,76,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",42,NA,NA,NA
-"80","D9","6/30/2018",1,"D",9,48,76,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",14,NA,NA,NA
-"81","D9","6/30/2018",1,"D",9,48,76,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",1,NA,NA,NA
-"82","D9","6/30/2018",1,"D",9,48,76,"Animalia","Mollusca","Gastropoda","Littorinimorpha","Littorinidae","Littorina",NA,"Periwinkle Snails",150,NA,NA,NA
-"83","D9","6/30/2018",1,"D",9,48,76,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",25,NA,NA,NA
-"84","E1","5/18/2018",1,"E",1,3,113,"Animalia","Echinodermata","Echinoidea","Clypeasteroida","Dendrasteridae","Dendraster","excentricus","Excentric Sand Dollar",12,NA,NA,NA
-"85","E1","5/18/2018",1,"E",1,3,113,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",5,NA,NA,NA
-"86","E1","5/18/2018",1,"E",1,3,113,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",1,NA,NA,NA
-"87","E1","5/18/2018",1,"E",1,3,113,"Animalia","Annelida","Polychaeta","Phyllodocida","Nereididae","Nereis","procera","Little Pileworm Sea Nymph",1,NA,NA,NA
-"88","E1","5/18/2018",1,"E",1,3,113,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",3,NA,NA,NA
-"89","E1","5/18/2018",1,"E",1,3,113,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","crenatus","Wrinkled Barnacle",26,NA,NA,NA
-"90","E1","5/18/2018",1,"E",1,3,113,"Animalia","Mollusca","Gastropoda","Littotinimorpha","Naticoidea","Neverita","lewisii","Lewis' Moonsnail",1,NA,NA,NA
-"91","E2","5/18/2018",1,"E",2,3,105,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",30,NA,NA,NA
-"92","E2","5/18/2018",1,"E",2,3,105,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",178,NA,NA,NA
-"93","E2","5/18/2018",1,"E",2,3,105,"Animalia","Arthropoda","Malacostraca","Decapoda","Callianassidae","Neotrypaea","californiensis","Bay Ghost Shrimp",2,NA,NA,NA
-"94","E2","5/18/2018",1,"E",2,3,105,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",1,NA,NA,NA
-"95","E2","5/18/2018",1,"E",2,3,105,"Animalia","Echinodermata","Echinoidea","Clypeasteroida","Dendrasteridae","Dendraster","excentricus","Excentric Sand Dollar",1,NA,NA,NA
-"96","E2","5/18/2018",1,"E",2,3,105,"Animalia","Mollusca","Bivalvia","Cardiida","Tellinoidea","Macoma",NA,"Macoma",9,NA,NA,NA
-"97","E3","5/18/2018",1,"E",3,3,121,"Animalia","Mollusca","Bivalvia","Cardiida","Tellinoidea","Macoma",NA,"Macoma",1,NA,NA,NA
-"98","E3","5/18/2018",1,"E",3,3,121,"Animalia","Echinodermata","Echinoidea","Clypeasteroida","Dendrasteridae","Dendraster","excentricus","Excentric Sand Dollar",10,NA,NA,NA
-"99","E3","5/18/2018",1,"E",3,3,121,"Animalia","Annelida","Nemertea","Monostilifera","Emplectonema","Emplectonema",NA,"Ribbon Worm",1,NA,NA,NA
-"100","E3","5/18/2018",1,"E",3,3,121,"Animalia","Annelida","Polychaeta","Phyllodocida","Nephtyidae","Nephtys",NA,"Goddess Worm",1,NA,NA,NA
-"101","E3","5/18/2018",1,"E",3,3,121,"Animalia","Arthropoda","Malacostraca","Decapoda","Callianassidae","Neotrypaea","californiensis","Bay Ghost Shrimp",2,NA,NA,NA
-"102","E3","5/18/2018",1,"E",3,3,121,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",3,NA,NA,NA
-"103","H1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
-"104","H2","6/29/2018",1,"H",2,70,196,"Animalia","Mollusca","Bivalvia","Cardiida","Tellinoidea","Macoma",NA,"Macoma",1,NA,NA,NA
-"105","H2","6/29/2018",1,"H",2,70,196,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",4,NA,NA,NA
-"106","H3","6/29/2018",1,"H",3,70,161,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",1,NA,NA,NA
-"107","H3","6/29/2018",1,"H",3,70,161,"Animalia","Echinodermata","Echinoidea","Clypeasteroida","Dendrasteridae","Dendraster","excentricus","Excentric Sand Dollar",2,NA,NA,NA
-"108","H3","6/29/2018",1,"H",3,70,161,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",1,NA,NA,NA
-"109","H3","6/29/2018",1,"H",3,70,161,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Protothaca","staminea","Pacific Littleneck Clam",2,NA,NA,NA
-"110","H4","6/29/2018",1,"H",4,55,171,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",5,NA,NA,NA
-"111","H4","6/29/2018",1,"H",4,55,171,"Animalia","Mollusca","Bivalvia","Venerida","Mactridae","Tresus","capax","Fat Gaper",1,NA,NA,NA
-"112","H5","6/29/2018",1,"H",5,55,161,"Animalia","Arthropoda","Malacostraca","Decapoda","Callianassidae","Neotrypaea","californiensis","Bay Ghost Shrimp",6,NA,NA,NA
-"113","H5","6/29/2018",1,"H",5,55,161,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",1,NA,NA,NA
-"114","H5","6/29/2018",1,"H",5,55,161,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",1,NA,NA,NA
-"115","H6","6/29/2018",1,"H",6,55,196,"Animalia","Annelida","Polychaeta","Phyllodocida","Nereididae","Nereis",NA,"Sea Nymph",1,NA,NA,NA
-"116","H6","6/29/2018",1,"H",6,55,196,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",3,NA,NA,NA
-"117","H6","6/29/2018",1,"H",6,55,196,"Animalia","Mollusca","Bivalvia","Cardiida","Tellinoidea","Macoma",NA,"Macoma",1,NA,NA,NA
-"118","H7","6/29/2018",1,"H",7,41,171,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Protothaca","staminea","Pacific Littleneck Clam",1,NA,NA,NA
-"119","H7","6/29/2018",1,"H",7,41,171,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",5,NA,NA,NA
-"120","H8","6/29/2018",1,"H",8,41,161,"Animalia","Annelida","Polychaeta","Phyllodocida","Nephtyidae","Nephtys",NA,"Goddess Worm",1,NA,NA,NA
-"121","H8","6/29/2018",1,"H",8,41,161,"Animalia","Annelida","Polychaeta","Phyllodocida","Nereididae","Nereis",NA,"Sea Nymph",1,NA,NA,NA
-"122","H8","6/29/2018",1,"H",8,41,161,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",1,NA,NA,NA
-"123","H8","6/29/2018",1,"H",8,41,161,"Animalia","Mollusca","Bivalvia","Venerida","Mactridae",NA,NA,"Duck Clams",1,NA,NA,NA
-"124","H8","6/29/2018",1,"H",8,41,161,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Saxidomus","gigantea","Washington Butter Clam",1,NA,NA,NA
-"125","H8","6/29/2018",1,"H",8,41,161,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",2,NA,NA,NA
-"126","H9","6/29/2018",1,"H",9,41,196,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",1,NA,NA,NA
-"127","H9","6/29/2018",1,"H",9,41,196,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",2,NA,NA,NA
+"1","A1",NA,NA,"A","1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
+"2","A2",NA,NA,"A","2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
+"3","A3","5/19/2018",1,"A","3",4,3,"Animalia","Arthropoda","Malacostraca","Amphipoda","Talitridae","Megalorchestia","californiana","California Beach Hopper",30,NA,NA,NA
+"4","A4","5/19/2018",1,"A","4",38,8,"Animalia","Arthropoda","Malacostraca","Amphipoda","Talitridae","Megalorchestia","californiana","California Beach Hopper",1,NA,NA,NA
+"5","A5",NA,NA,"A","5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
+"6","A6",NA,NA,"A","6",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
+"7","A7",NA,NA,"A","7",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
+"8","A8",NA,NA,"A","8",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
+"9","A9",NA,NA,"A","9",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
+"10","D1",NA,NA,"D","1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
+"11","D2","6/8/2018",1,"D","2",93,94,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",30,NA,NA,NA
+"12","D2","6/8/2018",1,"D","2",93,94,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",3,NA,NA,NA
+"13","D2","6/8/2018",1,"D","2",93,94,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",1640,NA,NA,NA
+"14","D2","6/8/2018",1,"D","2",93,94,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",1,NA,NA,NA
+"15","D2","6/8/2018",1,"D","2",93,94,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",1,NA,NA,NA
+"16","D2","6/8/2018",1,"D","2",93,94,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",5,NA,NA,NA
+"17","D2","6/8/2018",1,"D","2",93,94,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",2,NA,NA,NA
+"18","D2","6/8/2018",1,"D","2",93,94,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",1,NA,NA,NA
+"19","D2","6/8/2018",1,"D","2",93,94,"Animalia","Mollusca","Gastropoda","Littorinidae","Littorinidae","Littorina","scutulata","Checkered Periwinkle",80,NA,NA,NA
+"20","D2","6/8/2018",1,"D","2",93,94,"Animalia","Mollusca","Gastropoda","Littorinimorpha","Littorinidae","Littorina",NA,"Periwinkle Snails",1,NA,NA,NA
+"21","D2","6/8/2018",1,"D","2",93,94,"Animalia","Mollusca","Gastropoda","Patellogastropoda","Lottioidea","Lottia",NA,"Lottia Limpets",2,NA,NA,NA
+"22","D3","6/8/2018",1,"D","3",93,81,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",1,NA,NA,NA
+"23","D3","6/8/2018",1,"D","3",93,81,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus",NA,"Barnacle",1,NA,NA,NA
+"24","D3","6/8/2018",1,"D","3",93,81,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",24,NA,NA,NA
+"25","D3","6/8/2018",1,"D","3",93,81,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",8,NA,NA,NA
+"26","D3","6/8/2018",1,"D","3",93,81,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",1,NA,NA,NA
+"27","D3","6/8/2018",1,"D","3",93,81,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",1,NA,NA,NA
+"28","D3","6/8/2018",1,"D","3",93,81,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",1,NA,NA,NA
+"29","D3","6/8/2018",1,"D","3",93,81,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",1,NA,NA,NA
+"30","D3","6/8/2018",1,"D","3",93,81,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",1,NA,NA,NA
+"31","D3","6/8/2018",1,"D","3",93,81,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",1,NA,NA,NA
+"32","D3","6/8/2018",1,"D","3",93,81,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",1,NA,NA,NA
+"33","D3","6/8/2018",1,"D","3",93,81,"Animalia","Mollusca","Gastropoda","Patellogastropoda",NA,NA,NA,"Limpet",1,NA,NA,NA
+"34","D4","6/29/2018",1,"D","4",76,94,"Animalia","Annelida","Polychaeta","Phyllodocida","Nereididae",NA,NA,"Polychate Worms",4,NA,NA,NA
+"35","D4","6/29/2018",1,"D","4",76,94,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",32,NA,NA,NA
+"36","D4","6/29/2018",1,"D","4",76,94,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",1850,NA,NA,NA
+"37","D4","6/29/2018",1,"D","4",76,94,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",26,NA,NA,NA
+"38","D4","6/29/2018",1,"D","4",76,94,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",64,NA,NA,NA
+"39","D4","6/29/2018",1,"D","4",76,94,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",54,NA,NA,NA
+"40","D4","6/29/2018",1,"D","4",76,94,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Protothaca","staminea","Pacific Littleneck Clam",2,NA,NA,NA
+"41","D4","6/29/2018",1,"D","4",76,94,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",3,NA,NA,NA
+"42","D5","6/30/2018",1,"D","5",76,81,"Animalia","Annelida","Polychaeta","Phyllodocida","Nereididae","Nereis","brandti","Giant Pilling Worm",2,NA,NA,NA
+"43","D5","6/30/2018",1,"D","5",76,81,"Animalia","Arthropoda","Malacostraca","Decapoda","Callianassidae","Neotrypaea","californiensis","Bay Ghost Shrimp",1,NA,NA,NA
+"44","D5","6/30/2018",1,"D","5",76,81,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",22,NA,NA,NA
+"45","D5","6/30/2018",1,"D","5",76,81,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",1870,NA,NA,NA
+"46","D5","6/30/2018",1,"D","5",76,81,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",44,NA,NA,NA
+"47","D5","6/30/2018",1,"D","5",76,81,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",18,NA,NA,NA
+"48","D5","6/30/2018",1,"D","5",76,81,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",24,NA,NA,NA
+"49","D5","6/30/2018",1,"D","5",76,81,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",5,NA,NA,NA
+"50","D5","6/30/2018",1,"D","5",76,81,"Animalia","Mollusca","Gastropoda","Littorinimorpha","Littorinidae","Littorina",NA,"Periwinkle Snails",110,NA,NA,NA
+"51","D6","6/30/2018",1,"D","6",76,76,"Animalia","Arthropoda","Malacostraca","Decapoda","Callianassidae","Neotrypaea","californiensis","Bay Ghost Shrimp",1,NA,NA,NA
+"52","D6","6/30/2018",1,"D","6",76,76,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",1970,NA,NA,NA
+"53","D6","6/30/2018",1,"D","6",76,76,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",25,NA,NA,NA
+"54","D6","6/30/2018",1,"D","6",76,76,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",28,NA,NA,NA
+"55","D6","6/30/2018",1,"D","6",76,76,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",1,NA,NA,NA
+"56","D6","6/30/2018",1,"D","6",76,76,"Animalia","Mollusca","Gastropoda","Littorinimorpha","Littorinidae","Littorina",NA,"Periwinkle Snails",145,NA,NA,NA
+"57","D6","6/30/2018",1,"D","6",76,76,"Animalia","Mollusca","Gastropoda","Patellogastropoda","Lottioidea","Lottia",NA,"Lottia Limpets",18,NA,NA,NA
+"58","D7","6/29/2018",1,"D","7",48,94,"Animalia","Arthropoda","Malacostraca","Decapoda","Callianassidae","Neotrypaea","californiensis","Bay Ghost Shrimp",3,NA,NA,NA
+"59","D7","6/29/2018",1,"D","7",48,94,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",10,NA,NA,NA
+"60","D7","6/29/2018",1,"D","7",48,94,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",1290,NA,NA,NA
+"61","D7","6/29/2018",1,"D","7",48,94,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",22,NA,NA,NA
+"62","D7","6/29/2018",1,"D","7",48,94,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",18,NA,NA,NA
+"63","D7","6/29/2018",1,"D","7",48,94,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",26,NA,NA,NA
+"64","D7","6/29/2018",1,"D","7",48,94,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",12,NA,NA,NA
+"65","D7","6/29/2018",1,"D","7",48,94,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",2,NA,NA,NA
+"66","D7","6/29/2018",1,"D","7",48,94,"Animalia","Mollusca","Gastropoda",NA,"Lottiidae","Tectura",NA,"True Limpets",1,NA,NA,NA
+"67","D8","6/30/2018",1,"D","8",48,81,"Animalia","Annelida","Polychaeta","Phyllodocida","Nereididae","Nereis","brandti","Giant Pilling Worm",1,NA,NA,NA
+"68","D8","6/30/2018",1,"D","8",48,81,"Animalia","Arthropoda","Malacostraca","Decapoda","Callianassidae","Neotrypaea","californiensis","Bay Ghost Shrimp",2,NA,NA,NA
+"69","D8","6/30/2018",1,"D","8",48,81,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",28,NA,NA,NA
+"70","D8","6/30/2018",1,"D","8",48,81,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",1600,NA,NA,NA
+"71","D8","6/30/2018",1,"D","8",48,81,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",31,NA,NA,NA
+"72","D8","6/30/2018",1,"D","8",48,81,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",16,NA,NA,NA
+"73","D8","6/30/2018",1,"D","8",48,81,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",28,NA,NA,NA
+"74","D8","6/30/2018",1,"D","8",48,81,"Animalia","Mollusca","Gastropoda","Littorinimorpha","Littorinidae","Littorina",NA,"Periwinkle Snails",170,NA,NA,NA
+"75","D9","6/30/2018",1,"D","9",48,76,"Animalia","Annelida","Polychaeta","Phyllodocida","Nereididae","Nereis","brandti","Giant Pilling Worm",1,NA,NA,NA
+"76","D9","6/30/2018",1,"D","9",48,76,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",42,NA,NA,NA
+"77","D9","6/30/2018",1,"D","9",48,76,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",1470,NA,NA,NA
+"78","D9","6/30/2018",1,"D","9",48,76,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",134,NA,NA,NA
+"79","D9","6/30/2018",1,"D","9",48,76,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",59,NA,NA,NA
+"80","D9","6/30/2018",1,"D","9",48,76,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",25,NA,NA,NA
+"81","D9","6/30/2018",1,"D","9",48,76,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",14,NA,NA,NA
+"82","D9","6/30/2018",1,"D","9",48,76,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",1,NA,NA,NA
+"83","D9","6/30/2018",1,"D","9",48,76,"Animalia","Mollusca","Gastropoda","Littorinimorpha","Littorinidae","Littorina",NA,"Periwinkle Snails",150,NA,NA,NA
+"84","E1","5/18/2018",1,"E","1",3,113,"Animalia","Annelida","Polychaeta","Phyllodocida","Nereididae","Nereis","procera","Little Pileworm Sea Nymph",1,NA,NA,NA
+"85","E1","5/18/2018",1,"E","1",3,113,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",3,NA,NA,NA
+"86","E1","5/18/2018",1,"E","1",3,113,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","crenatus","Wrinkled Barnacle",26,NA,NA,NA
+"87","E1","5/18/2018",1,"E","1",3,113,"Animalia","Echinodermata","Echinoidea","Clypeasteroida","Dendrasteridae","Dendraster","excentricus","Excentric Sand Dollar",12,NA,NA,NA
+"88","E1","5/18/2018",1,"E","1",3,113,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",5,NA,NA,NA
+"89","E1","5/18/2018",1,"E","1",3,113,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",1,NA,NA,NA
+"90","E1","5/18/2018",1,"E","1",3,113,"Animalia","Mollusca","Gastropoda","Littotinimorpha","Naticoidea","Neverita","lewisii","Lewis' Moonsnail",1,NA,NA,NA
+"91","E2","5/18/2018",1,"E","2",3,105,"Animalia","Arthropoda","Malacostraca","Decapoda","Callianassidae","Neotrypaea","californiensis","Bay Ghost Shrimp",2,NA,NA,NA
+"92","E2","5/18/2018",1,"E","2",3,105,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",30,NA,NA,NA
+"93","E2","5/18/2018",1,"E","2",3,105,"Animalia","Arthropoda","Maxillopoda","Sessilia","Balanidae","Balanus","glandula","Common Acorn Barnacle",178,NA,NA,NA
+"94","E2","5/18/2018",1,"E","2",3,105,"Animalia","Echinodermata","Echinoidea","Clypeasteroida","Dendrasteridae","Dendraster","excentricus","Excentric Sand Dollar",1,NA,NA,NA
+"95","E2","5/18/2018",1,"E","2",3,105,"Animalia","Mollusca","Bivalvia","Cardiida","Tellinoidea","Macoma",NA,"Macoma",9,NA,NA,NA
+"96","E2","5/18/2018",1,"E","2",3,105,"Animalia","Mollusca","Bivalvia","Osteroidea","Mytilidae","Mytilus","edulis","Blue Mussel",1,NA,NA,NA
+"97","E3","5/18/2018",1,"E","3",3,121,"Animalia","Annelida","Nemertea","Monostilifera","Emplectonema","Emplectonema",NA,"Ribbon Worm",1,NA,NA,NA
+"98","E3","5/18/2018",1,"E","3",3,121,"Animalia","Annelida","Polychaeta","Phyllodocida","Nephtyidae","Nephtys",NA,"Goddess Worm",1,NA,NA,NA
+"99","E3","5/18/2018",1,"E","3",3,121,"Animalia","Arthropoda","Malacostraca","Decapoda","Callianassidae","Neotrypaea","californiensis","Bay Ghost Shrimp",2,NA,NA,NA
+"100","E3","5/18/2018",1,"E","3",3,121,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",3,NA,NA,NA
+"101","E3","5/18/2018",1,"E","3",3,121,"Animalia","Echinodermata","Echinoidea","Clypeasteroida","Dendrasteridae","Dendraster","excentricus","Excentric Sand Dollar",10,NA,NA,NA
+"102","E3","5/18/2018",1,"E","3",3,121,"Animalia","Mollusca","Bivalvia","Cardiida","Tellinoidea","Macoma",NA,"Macoma",1,NA,NA,NA
+"103","H1",NA,NA,"H","1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA
+"104","H2","6/29/2018",1,"H","2",70,196,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",4,NA,NA,NA
+"105","H2","6/29/2018",1,"H","2",70,196,"Animalia","Mollusca","Bivalvia","Cardiida","Tellinoidea","Macoma",NA,"Macoma",1,NA,NA,NA
+"106","H3","6/29/2018",1,"H","3",70,161,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",1,NA,NA,NA
+"107","H3","6/29/2018",1,"H","3",70,161,"Animalia","Echinodermata","Echinoidea","Clypeasteroida","Dendrasteridae","Dendraster","excentricus","Excentric Sand Dollar",2,NA,NA,NA
+"108","H3","6/29/2018",1,"H","3",70,161,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",1,NA,NA,NA
+"109","H3","6/29/2018",1,"H","3",70,161,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Protothaca","staminea","Pacific Littleneck Clam",2,NA,NA,NA
+"110","H4","6/29/2018",1,"H","4",55,171,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",5,NA,NA,NA
+"111","H4","6/29/2018",1,"H","4",55,171,"Animalia","Mollusca","Bivalvia","Venerida","Mactridae","Tresus","capax","Fat Gaper",1,NA,NA,NA
+"112","H5","6/29/2018",1,"H","5",55,161,"Animalia","Arthropoda","Malacostraca","Decapoda","Callianassidae","Neotrypaea","californiensis","Bay Ghost Shrimp",6,NA,NA,NA
+"113","H5","6/29/2018",1,"H","5",55,161,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",1,NA,NA,NA
+"114","H5","6/29/2018",1,"H","5",55,161,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",1,NA,NA,NA
+"115","H6","6/29/2018",1,"H","6",55,196,"Animalia","Annelida","Polychaeta","Phyllodocida","Nereididae","Nereis",NA,"Sea Nymph",1,NA,NA,NA
+"116","H6","6/29/2018",1,"H","6",55,196,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",3,NA,NA,NA
+"117","H6","6/29/2018",1,"H","6",55,196,"Animalia","Mollusca","Bivalvia","Cardiida","Tellinoidea","Macoma",NA,"Macoma",1,NA,NA,NA
+"118","H7","6/29/2018",1,"H","7",41,171,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",5,NA,NA,NA
+"119","H7","6/29/2018",1,"H","7",41,171,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Protothaca","staminea","Pacific Littleneck Clam",1,NA,NA,NA
+"120","H8","6/29/2018",1,"H","8",41,161,"Animalia","Annelida","Polychaeta","Phyllodocida","Nephtyidae","Nephtys",NA,"Goddess Worm",1,NA,NA,NA
+"121","H8","6/29/2018",1,"H","8",41,161,"Animalia","Annelida","Polychaeta","Phyllodocida","Nereididae","Nereis",NA,"Sea Nymph",1,NA,NA,NA
+"122","H8","6/29/2018",1,"H","8",41,161,"Animalia","Mollusca","Bivalvia","Cardiida","Psammobiidae","Nuttallia","obscurata","Purple Mahogony Clam",2,NA,NA,NA
+"123","H8","6/29/2018",1,"H","8",41,161,"Animalia","Mollusca","Bivalvia","Ostreida","Osterida","Magallana","gigas","Pacific Oyster",1,NA,NA,NA
+"124","H8","6/29/2018",1,"H","8",41,161,"Animalia","Mollusca","Bivalvia","Venerida","Mactridae",NA,NA,"Duck Clams",1,NA,NA,NA
+"125","H8","6/29/2018",1,"H","8",41,161,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Saxidomus","gigantea","Washington Butter Clam",1,NA,NA,NA
+"126","H9","6/29/2018",1,"H","9",41,196,"Animalia","Arthropoda","Malacostraca","Decapoda","Varunidae","Hemigrapsus","oregonensis","Yellow Shore Crab",2,NA,NA,NA
+"127","H9","6/29/2018",1,"H","9",41,196,"Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Ruditapes","philippinarum","Japanese Littleneck",1,NA,NA,NA
