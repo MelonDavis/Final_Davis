@@ -32,7 +32,7 @@ nrow(inv.d) #118
 #generate column of all quad values
 
 #we start by defining how many quadrats were in each site
-sitelab <- c("A", "H", "D", "E")
+sitelab <- c("A", "D", "E", "H") #***could also make this labels
 quadnum <- c(rep("NA", 4))
 
 
@@ -42,7 +42,7 @@ for (i in 1:4) {
   quadnum[i] <- length(grep(sitelab[i], coor.d$Section))
   #sitelab.quad[i] <- c(sitelab[i], rep(NA, quadnum[i]))
 }
-#9, 9, 9, 3
+#9, 9, 3, 9
 
 #create an empty object 9 long (max number of quads)
 exp <- rep("NA", 9)
@@ -60,8 +60,8 @@ for (i in 1:4) {
 }
 
 #tranform four column data frame into a dataframe with a single column
-  #Additionally we know that site E (the 4th column) has only 3 quadrats
-allist <- c(allquad[,1], allquad[,2], allquad[,3], allquad[1:3,4])
+  #Additionally we know that site E (the 3rd column) has only 3 quadrats
+allist <- c(allquad[,1], allquad[,2], allquad[1:3,3], allquad[,4])
 allist.d <- data.frame(allist)
 
 #***I ideally want to make what i name it something more clear, but to do that
@@ -89,6 +89,26 @@ for (i in 1:nrow(allquad)) {
 
 #If we look we see all the NAs have been replaced by 0 but the rows with values 
   #already are the same
+
+#We also want to fill in the section and site rows to make life easier in the 
+  #analysis
+for (i in 1:nrow(allquad)) {
+  
+  #The if statement says that if that row of Section = NA than make it equal the 
+    #first character of the X column
+  if (is.na(allquad$Section[i])){
+    
+    allquad$Section[i] <- substr(allquad$X[i], 1, 1)
+  }
+  
+  #does the same as above but with Site = NA and the second character of column 
+    #X
+  if (is.na(allquad$Quadrat[i])){
+    
+    allquad$Quadrat[i] <- substr(allquad$X[i], 2, 2)
+  }
+  
+}
 
 #create path to save in clean file
 p.allquad <- paste(p.final[2], "allquad.csv", sep = "")
