@@ -1,15 +1,28 @@
 #Clean
 
-#====== [Load Clean] =====
+#====== [Import data] =====
 
 #Data was cleaned in excel to match coordinate data (distance from high tide)
   #and results of each quadrat
 
 #import data. NAs were entered as "-" so include transforming them into NA
-inv.d <- read.csv(file.choose("invertebrate"), stringsAsFactors = FALSE, 
+inv.d <- read.csv(file.choose("invertebrate_raw_new"), stringsAsFactors = FALSE, 
                   strip.white = TRUE, na.strings = c("NA","-"))
 
 tail(inv.d) #successfully transformed dashes to NA
+
+#import coordinate data for every quadrat
+coor.d <- read.csv(file.choose("QuadCoords"), stringsAsFactors = FALSE, 
+                   strip.white = TRUE, na.strings = c("NA","-"))
+
+head(coor.d)
+
+#Import richness by quadrat data
+
+rich.quad <- read.csv(file.choose("QuadRich"), stringsAsFactors = FALSE, 
+                      strip.white = TRUE, na.strings = c("NA","-"))
+
+head(rich.quad)
 
 #----- Add Zero Quads ----
 
@@ -17,11 +30,6 @@ tail(inv.d) #successfully transformed dashes to NA
   #species, however if we want to represent all the data gathered we need to 
   #include the result of 0 for those quadrats w/ no species found 
 
-#import coordinate data for every quadrat
-coor.d <- read.csv(file.choose("coordinate"), stringsAsFactors = FALSE, 
-                   strip.white = TRUE, na.strings = c("NA","-"))
-
-head(coor.d)
 
 #I want to start by making a new column of the pasted section and quadrat values
 inv.d[,16] <- paste(inv.d$Section, inv.d$Quadrat, sep = "")
