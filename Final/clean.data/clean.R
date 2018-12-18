@@ -110,6 +110,8 @@ for (i in 1:nrow(allquad)) {
   
 }
 
+colnames(allquad)[1] <- "Location"
+
 #create path to save in clean file
 p.allquad <- paste(p.final[2], "allquad.csv", sep = "")
 write.csv(allquad, file = p.allquad)
