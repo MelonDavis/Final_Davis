@@ -1,4 +1,21 @@
-#
+#==== [Calculate total of each quad] ======
+
+#object to store sum of each quadrant (number = total num of quads)
+sum.quad <- rep(NA, 30)
+
+all <- unique(allquad$Location)
+
+#this should work but i think i need to collapse by quad seperately
+for (i in 1:30){
+  
+  sec <- all[i]
+  sum.quad[i] <- sum(allquad$Number.of.individuals[allquad$Location == sec])
+  
+}
+
+quadttls <- data.frame(substr(all, 1, 1), all, sum.quad)
+colnames(quadttls) <- c("Section", "Location", "Number.of.ind")
+
 
 #===== [Strip Chart] ====
 
@@ -24,23 +41,19 @@ for (i in 1:4) {
 #sample size of each site
 n <- quadnum
 
-#object to store sum of each quadrant (number = total num of quads)
-sum.quad <- rep(NA, 30)
 
-all <- unique(allquad$X)
+for (i in 1:4) {
+  
+test <- labels[i]
 
-#this should work but i think i need to collapse by quad seperately
-for (i in 1:30){
-  
-  sec <- all[i]
-  test[i] <- sum(allquad$Number.of.individuals[allquad$X == sec])
-  
+#draw n points with a jitter of 5 in scposition (matching with labels) at the
+  #y coordinates of number of individuals when the section value is equal to
+  #position i of test; do this for each value of i
+points(jitter(rep(scposition[i], n[i]), 5), 
+       quadttls$Number.of.ind[quadttls$Section == test], pch = 19)
+
 }
 
-data.frame(all, test)
 
-#points(jitter(rep(scposition[1], n[i]), 5), test[i], pch = 19)
-
-
-
+#hexa code = #rrggbbAA; AA determines transparency
 
