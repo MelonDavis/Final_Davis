@@ -124,7 +124,7 @@ for (i in 1:4) {
   
 }
 
-dev.off()
+dev.off() 
 
 #---- richness ----
 
