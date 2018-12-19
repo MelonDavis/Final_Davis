@@ -1,6 +1,6 @@
 #Clean
 
-#====== [Import data] =====
+#===== [Import data] =====
 
 #Data was cleaned in excel to match coordinate data (distance from high tide)
   #and results of each quadrat
@@ -24,7 +24,7 @@ rich.quad <- read.csv(file.choose("QuadRich"), stringsAsFactors = FALSE,
 
 head(rich.quad)
 
-#----- Add Zero Quads ----
+#===== [Add Zero Quads] ----
 
 #We can see that data has only been entered for quadrats in which there were 
   #species, however if we want to represent all the data gathered we need to 
@@ -126,3 +126,25 @@ p.allquad <- paste(p.final[2], "allquad.csv", sep = "")
 write.csv(allquad, file = p.allquad)
 
 
+
+#===== [Collapse by Section] ----
+
+
+#object to store sum of each quadrant (number = total num of quads)
+sum.quad <- rep(NA, 30)
+
+#object that has each of the section/quad labels
+all <- unique(allquad$Location)
+
+#for each of the unique labels of section/quad take the sum of the number of 
+#individuals when the row == the unique section/quad
+for (i in 1:30){
+  
+  sec <- all[i]
+  sum.quad[i] <- sum(allquad$Number.of.individuals[allquad$Location == sec])
+  
+}
+
+#create data frame of quad totals with section, location, and sum of individuals
+quadttls.d <- data.frame(substr(all, 1, 1), all, sum.quad)
+colnames(quadttls.d) <- c("Section", "Location", "Number.of.ind")
