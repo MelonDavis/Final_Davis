@@ -1,6 +1,7 @@
 #----Creating Elevation Map----------------------------------------------------
 #Set working directory
 getwd()
+setwd("C:/Users/Ben Shanafelt/Documents/Data Analysis in R/Projct Folder/Final_Davis/Final/")
 #Load Data
 quad.coords <- read.csv("QuadCoords.csv")
 
@@ -9,7 +10,8 @@ qcx <- quad.coords$NS
 qcy <- quad.coords$WE
 
 #Create an empty plot, with the x and y limits
-plot(NA, bty = 'n', pch = '', ylab = '', xlab = '', xlim = c(0, 100), 
+plot(NA, bty = 'n', pch = '', ylab = 'Distance from High Tide Line (WE)', 
+     xlab = 'Distance along NS transect', xlim = c(0, 100), 
      ylim = c(0, 200))
 
 #Create a box around the plot
@@ -23,6 +25,4 @@ abline(200, 0)
 abline(0, 0)
 
 #Add a point for each quadrat
-points(x = qcx, y = qcy, pch = 19, cex = 1, col = "purple")
-
-#add labels for each section
+points(x = qcx, y = qcy, pch = 16, cex = 1, col = "black")
