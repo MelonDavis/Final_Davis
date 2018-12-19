@@ -33,8 +33,8 @@ ylim.1 <- range(quadttls.d$Number.of.ind)
 sec.col <- c("#27d76f60", "#cd7ce750", "#f2a42450", "#0b00d150")
 
 #create empty plot
-plot(NA, xlim = xlim.1, ylim = ylim.1, xaxt = 'n', xlab = "group", 
-     ylab = "# of ind", las = 1)
+plot(NA, xlim = xlim.1, ylim = ylim.1, xaxt = 'n', xlab = "Section", 
+     ylab = "# of Ind", las = 1)
 #xaxt = 'n' means supress the x axis
 
 #generate labels and position for x axis (sections)
@@ -109,15 +109,15 @@ dev.off()
 #===== [Richness] =====
 #---- strip chart ----
 
-pdf(paste(p.final[3], "box_indttls.pdf", sep = ""), width = 6, height = 4)
+pdf(paste(p.final[3], "box_richttls.pdf", sep = ""), width = 6, height = 4)
 
 #We can use the same code as above only need to redefine y lim and switch data 
   #frame
 ylim.1 <- range(rich.quad$Species.Richness)
 
 #create empty plot
-plot(NA, xlim = xlim.1, ylim = ylim.1, xaxt = 'n', xlab = "group", 
-     ylab = "# of ind", las = 1)
+plot(NA, xlim = xlim.1, ylim = ylim.1, xaxt = 'n', xlab = "Section", 
+     ylab = "Richness", las = 1)
 #xaxt = 'n' means supress the x axis
 
 #for loop to draw the labels, 1:4 is how many will be drawn
@@ -177,5 +177,5 @@ for (i in 1:4) {
            y1 = (tempsum[3] + st.er))
 }
 
-
+dev.off()
 
