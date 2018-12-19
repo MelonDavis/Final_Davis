@@ -1,27 +1,40 @@
-#===== [Total Ind.] ======
-#---- collapse by section ----
+#===== [Analysis] ======
 
+#---- Anova ----
 
-#object to store sum of each quadrant (number = total num of quads)
-sum.quad <- rep(NA, 30)
+#ind ttls
+#For our ANOVA we are removing section E
+#set rows that have section E
+secE <- which(quadttls.d$Section == "E")
+#save a new frame without those rows
+ADHttls <- quadttls.d[-c(secE),] 
 
-#object that has each of the section/quad labels
-all <- unique(allquad$Location)
+#perform an ANOVA test on the new data frame
+ttls.aov <- aov(Number.of.ind ~ Section, data = ADHttls)
+summary(ttls.aov)
 
-#for each of the unique labels of section/quad take the sum of the number of 
-  #individuals when the row == the unique section/quad
-for (i in 1:30){
-  
-  sec <- all[i]
-  sum.quad[i] <- sum(allquad$Number.of.individuals[allquad$Location == sec])
-  
-}
+#plot residuals to make sure they don't violate 
+plot(ttls.aov, 1)
+?aov()
 
-#create data frame of quad totals with section, location, and sum of individuals
-quadttls.d <- data.frame(substr(all, 1, 1), all, sum.quad)
-colnames(quadttls.d) <- c("Section", "Location", "Number.of.ind")
+#richness
 
-#---- strip chart ----
+#For our ANOVA we are removing section E
+#set rows that have section E
+secE <- which(rich.quad$Section == "E")
+#save a new frame without those rows
+ADHrich <- rich.quad[-c(secE),] 
+
+#perform an ANOVA test on the new data frame
+rich.aov <- aov(Species.Richness ~ Section, data = rich.quad)
+summary(rich.aov)
+
+#plot residuals to make sure they don't violate 
+plot(rich.aov, 1)
+?aov()
+
+#===== [Strip Charts] =====
+#---- total ind ----
 
 pdf(paste(p.final[3], "box_indttls.pdf", sep = ""), width = 6, height = 4)
 
@@ -51,7 +64,7 @@ for (i in 1:4) {
 for (i in 1:4) {
   
   #it has trouble reading [] within [] so i started by making an object that 
-    #would be the label of current position of the loop
+  #would be the label of current position of the loop
   templab <- labels[i]
   #assign the number of individuals of the current section to an object
   tempnumind <- quadttls.d$Number.of.ind[quadttls.d$Section == templab]
@@ -60,15 +73,15 @@ for (i in 1:4) {
   n <- length(tempnumind)
   
   #draw n points with a jitter of 5 in scposition (matching with labels) at the
-    #y coordinates of number of individuals when the section value is equal to
-    #position i of test; do this for each value of i
+  #y coordinates of number of individuals when the section value is equal to
+  #position i of test; do this for each value of i
   points(jitter(rep(scposition[i], n), 3), tempnumind, pch = 19, col = 
-         sec.col[i])
-
+           sec.col[i])
+  
   #Now we want to plot the median and the standard error
   #Store summary in temporary object to use to reference y coordinates
   tempsum <- summary(tempnumind)
-
+  
   #First lets draw our median line
   
   #I only want my lines to last for the category (not whole plot area)
@@ -97,7 +110,7 @@ for (i in 1:4) {
   
   #Can add standard error bars
   #segments(x0 = scposition[i], x1 = scposition[i], y0 = (tempsum[3] - st.er), 
-           #y1 = (tempsum[3] + st.er))
+  #y1 = (tempsum[3] + st.er))
   
 }
 
@@ -106,17 +119,16 @@ dev.off()
 #**and then generate a plot for each group so you can see the spread
 
 
-#===== [Richness] =====
-#---- strip chart ----
+#---- richness ----
 
 pdf(paste(p.final[3], "box_richttls.pdf", sep = ""), width = 6, height = 4)
 
 #We can use the same code as above only need to redefine y lim and switch data 
   #frame
-ylim.1 <- range(rich.quad$Species.Richness)
+ylim.3 <- range(rich.quad$Species.Richness)
 
 #create empty plot
-plot(NA, xlim = xlim.1, ylim = ylim.1, xaxt = 'n', xlab = "Section", 
+plot(NA, xlim = xlim.1, ylim = ylim.3, xaxt = 'n', xlab = "Section", 
      ylab = "Richness", las = 1)
 #xaxt = 'n' means supress the x axis
 
