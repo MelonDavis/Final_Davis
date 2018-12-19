@@ -13,9 +13,13 @@ ADHttls <- quadttls.d[-c(secE),]
 ttls.aov <- aov(Number.of.ind ~ Section, data = ADHttls)
 summary(ttls.aov)
 
+#start pdf for total residuals
+pdf(paste(p.final[3], "ttls_res.pdf", sep = ""), width = 6, height = 4)
+
 #plot residuals to make sure they don't violate 
 plot(ttls.aov, 1)
-?aov()
+
+dev.off()
 
 #richness
 
@@ -29,13 +33,19 @@ ADHrich <- rich.quad[-c(secE),]
 rich.aov <- aov(Species.Richness ~ Section, data = rich.quad)
 summary(rich.aov)
 
+#start a pdf for richness residuals
+pdf(paste(p.final[3], "rich_res.pdf", sep = ""), width = 6, height = 4)
+
 #plot residuals to make sure they don't violate 
 plot(rich.aov, 1)
 ?aov()
 
+dev.off()
+
 #===== [Strip Charts] =====
 #---- total ind ----
 
+#start pdf of the strip chart of total number of individuals
 pdf(paste(p.final[3], "box_indttls.pdf", sep = ""), width = 6, height = 4)
 
 #defines limitiations as objects first
@@ -47,7 +57,7 @@ sec.col <- c("#27d76f60", "#cd7ce750", "#f2a42450", "#0b00d150")
 
 #create empty plot
 plot(NA, xlim = xlim.1, ylim = ylim.1, xaxt = 'n', xlab = "Section", 
-     ylab = "# of Ind", las = 1)
+     ylab = "# of Ind", main = "Section Total Ind.", las = 1)
 #xaxt = 'n' means supress the x axis
 
 #generate labels and position for x axis (sections)
@@ -121,6 +131,7 @@ dev.off()
 
 #---- richness ----
 
+#start pdf of the strip chart of richness
 pdf(paste(p.final[3], "box_richttls.pdf", sep = ""), width = 6, height = 4)
 
 #We can use the same code as above only need to redefine y lim and switch data 
@@ -129,7 +140,7 @@ ylim.3 <- range(rich.quad$Species.Richness)
 
 #create empty plot
 plot(NA, xlim = xlim.1, ylim = ylim.3, xaxt = 'n', xlab = "Section", 
-     ylab = "Richness", las = 1)
+     ylab = "Richness", main = "Section Richness", las = 1)
 #xaxt = 'n' means supress the x axis
 
 #for loop to draw the labels, 1:4 is how many will be drawn
