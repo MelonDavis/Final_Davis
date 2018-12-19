@@ -6,6 +6,55 @@ wd <- getwd()
 #load data and replace dashes with "NA"
 Invert <- read.csv("allquad2.csv", na.strings = c("NA", "-"))
 View(Invert)
+#---TOTAL----------------------------------------------------------------------
+Inv.Phy <- unique(Invert$Phylum)
+col.inv <- c("springgreen", "steelblue1", "tomato", "purple")
+
+xlim.inv.total <- range(Invert$WE..ft.from.HTL.)
+ylim.inv.total <- range(Invert$Number.of.individuals)
+plot(NA, xlim = xlim.inv.total, ylim = ylim.inv.total, xlab = "Distance from HTL (ft)", 
+     ylab = "Abundance", main = "Invertebrates")
+
+for(i in 1:length(Inv.Phy)){
+  d.inv.total <- Invert[Invert$Phylum == Inv.Phy[i], ]
+  points(d.inv.total$WE..ft.from.HTL., d.inv.total$Number.of.individuals, col=col.inv[i],
+         pch = 19)
+  
+}
+#Creating regression lines for each phylum
+
+inv.interc.total <- inv.slope.total <- rep(NA,length(Inv.Phy))
+
+pv.Inv.total <- rep(NA, length(Inv.Phy))
+
+for(i in 1:length(Inv.Phy)){
+  #i <- 4 #Conduct for loop for a specific point
+  #
+  d.inv2.total <- Invert[Invert$Phylum == Inv.Phy[i], ]
+  m.inv.total <- lm(d.inv2.total$Number.of.individuals ~ d.inv2.total$WE..ft.from.HTL.)
+  #set slope and intercept
+  inv.slope.total[i] <- m.inv.total$coefficients[2]
+  inv.interc.total[i] <- m.inv.total$coefficients[1]
+  #Extract the p-value of the f statistic calculated by the regression.
+  #accessible in the vector coef.Inv
+  pv.Inv.total[i] <- pf(summary(m.inv.total)$fstatistic[1], summary(m.inv.total)$fstatistic[2],
+                  summary(m.inv.total)$fstatistic[3], lower.tail = FALSE)
+  #adds regression lines
+  abline(a=inv.interc.total[i], b=inv.slope.total[i], col = col.inv[i])
+  
+}
+#View P-values
+pv.Inv.total
+
+#Create P-value by Phylum table
+Total.Invert.by.Phylum <- data.frame("Phylum" = Inv.Phy, "P.value" = pv.Inv.total)
+
+#view Table
+View(Total.Invert.by.Phylum)
+
+#Add a legend (Be sure it doesn't cover up points)
+legend(110, 1800, Inv.Phy, pch = 19, col = col.inv)
+
 
 #---TOTAL (without B.glandula)-------------------------------------------------
 Inv.Phy <- unique(Invert$Phylum)
@@ -49,12 +98,17 @@ for(i in 1:length(Inv.Phy)){
 #View P-values
 pv.Inv
 #Create P-value by Phylum table
-Invert.by.Phylum.Table <- data.frame("Phylum" = Inv.Phy, "P.value" = pv.Inv)
+Invert.by.Phylum <- data.frame("Phylum" = Inv.Phy, "P.value" = pv.Inv)
 #view Table
-View(Invert.by.Phylum.Table)
+View(Invert.by.Phylum)
 
 #Add a legend (Be sure it doesn't cover up points)
 legend(110, 180, Inv.Phy, pch = 19, col = col.inv)
+
+#Save Plot to PDF
+
+#Save Table to PDF
+
 
 #---MOLLUSCA-------------------------------------------------------------------
 
@@ -113,9 +167,9 @@ View(Mol.by.order)
 
 
 #Add a legend (Be sure it doesn't cover up points)
-legend(100, 170, Mol.Ord, pch = 19, col = col.mol)
+legend(95, 170, Mol.Ord, pch = 19, col = col.mol)
 
-#---ARTHROPODA (withour B.glandula)--------------------------------------------
+#---ARTHROPODA (without B.glandula)--------------------------------------------
 Arthropoda.wbg <- Invert[Invert$Phylum == "Arthropoda" & 
                            Invert$Number.of.individuals < 50, ]
 str(Arthropoda.wbg)
@@ -171,7 +225,7 @@ Artho.wbg.by.order <- data.frame("Order" = Ord.wbg, "P.value" = pv.artho.wbg)
 View(Artho.wbg.by.order)
 
 #Add a legend (Be sure it doesn't cover up points)
-legend(120, 25, Ord, pch = 19, col = col.arthro)
+legend(120, 40, Ord, pch = 19, col = col.arthro)
 
 #---ARTHROPODA (TOTAL)---------------------------------------------------------
 Arthropoda <- Invert[Invert$Phylum == "Arthropoda", ]
@@ -226,7 +280,7 @@ Artho.by.order <- data.frame("Order" = Ord, "P.value" = pv.artho)
 View(Artho.by.order)
 
 #Add a legend (Be sure it doesn't cover up points)
-legend(120, 1500, Ord, pch = 19, col = col.arthro)
+legend(120, 1800, Ord, pch = 19, col = col.arthro)
 
 
 
@@ -284,7 +338,7 @@ Annelida.by.order <- data.frame("Order" = An.Ord, "P.value" = pv.an)
 View(Annelida.by.order)
 
 #Add a legend (Be sure it doesn't cover up points)
-legend(140, 3.5, An.Ord, pch = 19, col = col.an)
+legend(120, 3.5, An.Ord, pch = 19, col = col.an)
 
 #---ECHINODERMATA--------------------------------------------------------------
 Echinodermata <- Invert[Invert$Phylum == "Echinodermata", ]
